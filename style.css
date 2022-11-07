@@ -1,0 +1,18 @@
+html { background: salmon  ; }
+
+h1 {font-family: 'Zen Antique', serif;}
+
+    body {
+        width: 1500px;
+        float: center;
+        background-color: rgb(233, 188, 158);
+        font-family: 'Oswald', sans-serif;
+        }
+        
+        nav {
+        border: 3px rgb(3, 2, 51) solid;
+        padding: 5px;
+        width: 150px;
+        float: center;
+        font-family: 'Oswald', sans-serif;
+        }
