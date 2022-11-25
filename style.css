@@ -1,11 +1,11 @@
-html { background: salmon  ; }
+html { background: rgb(49, 43, 104)  ; }
 
 h1 {font-family: 'Zen Antique', serif;}
 
     body {
         width: 1500px;
         float: center;
-        background-color: rgb(233, 188, 158);
+        background-color: salmon;
         font-family: 'Oswald', sans-serif;
         }
         

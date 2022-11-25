@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title> Scarlett Market</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title> Scarlett Market</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Zen+Antique&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 
 <body>
 
@@ -22,6 +25,31 @@
   </nav>
 
 
+  
+  <b>
+    <form action="welcome.php" method="post">
+      Name: <input type="text" name="name"><br>
+      E-mail: <input type="text" name="email"><br>
+      <input type="submit">
+      </form>
+      Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
+      
+  <br><br>This is my table tag! For this test I am making a table for times to reach me on diffrent platforms
+  <table border="10" cellpadding= "15">
+    <tr>
+      <th>EMAIL</th>
+      <th>PHONE</th>
+      <th>SOCIAL MEDIA 1</th>
+      <th>SOCIAL MEDIA 2</th>
+    </tr>
+    <tr>
+      <td>MON-FRI</td>
+      <td>MON-FRI</td>
+      <td>MON-SAT</td>
+      <td>MON-SAT</td>
+    </tr>
+  </table>
 
 </body>
 </html>
