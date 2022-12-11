@@ -27,22 +27,17 @@
   </ul>
   </nav>
 <hr>
-      
-  <br><br>This is my table tag! For this test I am making a table for times to reach me on diffrent platforms
-  <table boder="10" cellpadding= "15">
-    <tr>
-      <th>EMAIL</th>
-      <th>PHONE</th>
-      <th>SOCIAL MEDIA 1</th>
-      <th>SOCIAL MEDIA 2</th>
-    </tr>
-    <tr>
-      <td>MON-FRI</td>
-      <td>MON-FRI</td>
-      <td>MON-SAT</td>
-      <td>MON-SAT</td>
-    </tr>
-  </table>
+  
+
+  
+  <b>
+    <form action="welcome.php" method="post">
+      Name: <input type="text" name="name"><br>
+      E-mail: <input type="text" name="email"><br>
+      <input type="submit">
+      </form>
+      Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
 
 </body>
 </html>
